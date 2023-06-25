@@ -1,3 +1,37 @@
+/* Notas
+ * 
+ * Establecemos los pasos para con nuestras  clases, definiendo el sig. orden
+ * 
+ * -1.- Definir propiedades o atributos usando variables JAVA
+ * -2.-Definimos un constructor con parametros (este constructor se define en la clase). Tambien tenemos un constructor por defecto que se define en la instancia de la clase. El inconveniente que tenemos es que solo podemos usar uno de los dos.
+ * 
+ * - Por ultimo definimos los metodos que nuestro objeto va a utilizar. Aqui utilizamos la teoria de funciones (funciones que retornar un tipo de valor).
+ * 
+ * 
+ * Notas adicionales:
+ * 
+ * -Sobrecarga de metodos: la finanlidad es  utilizar el mismo nombre del metodo (persona) e ir variando sus parametrso con esto evitamos usar "Persona1, "Perosna2", etc. para utilizar el mismo metodo en diferentes situaciones. No permite re-utilizar codigo.
+ * 
+ *  Hay que recordar que los datos generalmente vienen del front (formulario). La sobrecarga nos ayuda en comprender distintas situaciones donde tal vez uno de los campos solicitados en el formulario no sea requerido u obligatorio de llenar. Utilizando la sobrecarga, evitamos que el dato se asigne incorrectamente (es decir, que quede como indefinido), ya que esto podria acarrear errores en la ejecucion de nuestro codigo. De preferencia, es mejor que el dato quede como nulo.  
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+
+
+
+
+
+
+
 package entidades;
 
 public class Persona {
@@ -75,6 +109,8 @@ public class Persona {
 		// Persona Naruto = new Persona ("Naruto");
 		
 		// Uso del metodo mostrarInformacion que queremos mostrar
+		
+		// si no respetamos el orden de los parametros (el orden en el tipo de dato), tendremos problemas para instanciar a nuestro objeto)
 		
 
 	}// cierre del main
